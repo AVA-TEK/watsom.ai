@@ -91,7 +91,7 @@ function Footer({
 
   return (
     <div style={{textAlign:"-webkit-center", height:"5rem", borderTopWidth: "1px"}} className="pt-4 border-gray-300">
-      <div className='w-11/12 flex justify-between items-center grid grid-cols-12'>
+      <div className='w-11/12 justify-between items-center grid grid-cols-12'>
         <div className= "col-span-3 flex gap-2">
           <div className="text-xl py-2 font-bold tracking-tight text-gray-900">
             N = 

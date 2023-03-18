@@ -16,17 +16,43 @@ code {
 }
 
 .generate_sidebar {
-  max-width: 300px;
+  max-width: 320px;
 }
 
 .generate_body {
-  width: calc(100vw - 300px);
+  width: calc(100vw - 320px);
+}
+
+.generate_body_main {
+  display: flex;
 }
 
 .generate_input {
-  max-width: 600px;
+  max-width: 640px;
 }
 
 .generate_editor {
-  width: calc(100vw - 900px);
+  width: calc(100vw - 960px);
+}
+
+@media (max-width: 1600px) {
+  .generate_body_main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .generate_input {
+    width: auto;
+  }
+  
+  .generate_editor {
+    width: auto;
+  }
+
+}
+
+/* change footer */
+@media (max-width: 1600px) {
+
+
 }
