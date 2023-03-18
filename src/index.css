@@ -14,3 +14,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.generate_sidebar {
+  max-width: 300px;
+}
+
+.generate_body {
+  width: calc(100vw - 300px);
+}
+
+.generate_input {
+  max-width: 600px;
+}
+
+.generate_editor {
+  width: calc(100vw - 900px);
+}
