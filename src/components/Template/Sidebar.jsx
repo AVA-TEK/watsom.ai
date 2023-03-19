@@ -63,7 +63,7 @@ function Sidebar({
           sidebarOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
         }`}
         aria-hidden="true"
-      ></div> */}
+     > */}
 
       {/* Sidebar */}
       <div

@@ -81,7 +81,7 @@ export default function PinterestTitleDescriptionPage() {
           <Sidebar/>
         </div>
         <div className="generate_body" >
-          <div className='flex'>
+          <div className='generate_body_main'>
             <div className='generate_input border-gray-300 my-4 ml-8 bg-white' style={{borderWidth: "1px", borderRadius: '25px'}}>
               <Header 
                 title={t("pinterest_title_description")}
