@@ -59,7 +59,7 @@ function YoutubeDescription({
   }
 
   return (
-    <div className="relative flex flex-col flex-1 overflow-y-auto overflow-x-hidden bg-gray-100" style={{height: " calc(100vh - 12rem) "}}>
+    <div className="generate_attr_width relative flex flex-col flex-1 overflow-y-auto overflow-x-hidden bg-gray-100">
       <div className="pb-8">
         <div style={{textAlign: "-webkit-center"}}>
           <div className='w-4/5 text-start py-2'>
