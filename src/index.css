@@ -27,8 +27,11 @@ code {
   display: flex;
 }
 
-.generate_input {
-  max-width: 640px;
+@media (min-width: 1600px) {
+  .generate_input {
+    min-width: 640px;
+    max-width: 640px;
+  }
 }
 
 .generate_editor {
